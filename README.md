@@ -15,3 +15,9 @@ This script installs the following software.
 1. Start a terminal or PowerShell with administrator.
 2. Run `cd (Downloaded Directory)`. e.g. `cd $HOME\Downloads`
 3. Run ```powershell -ExecutionPolicy Bypass ketcindy-installer-speedup.ps1```.
+4. Press any key to continue ..." in another window. is displayed, press Enter to exit.
+5. Once ketcindysettings.cdy is executed, configure it properly and you are done!
+
+
+## ketcindysettings.cdy Configure sample
+Click on "Kettex", "Mkinit", "Update", "Work", in that order.
