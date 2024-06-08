@@ -47,7 +47,5 @@ ren C:\ketcindy-4.4.44 ketcindy
 echo "Opening ketcindysettings.cdy..."
 start C:\ketcindy\doc\ketcindysettings.cdy
 
-
-shortcut "%USERPROFILE%\Desktop\KeTCindyFolder.lnk" "C:\ketcindy"
-
-rd /s /q "$env:TEMP/AUTOKETCINDYINSTALL"
+echo "Cleanup TEMP folder"
+Remove-Item -Force -Recurse "$env:TEMP/AUTOKETCINDYINSTALL"
