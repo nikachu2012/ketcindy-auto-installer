@@ -39,11 +39,15 @@ echo "Downloading KeTCindy..."
 Invoke-WebRequest -UseBasicParsing -Uri $path_ketcindy -OutFile "$env:TEMP/AUTOKETCINDYINSTALL/ketcindydl.zip"
 
 echo "Unzipping KeTCindy..."
-Expand-Archive ./ketcindydl.zip c:/ketcindydl
+Expand-Archive ./ketcindydl.zip c:/
 
 echo "Installing KeTCindy..."
-ren C:\ketcindydl\ketcindy-4.4.44 ketcindy4.4.44
+ren C:\ketcindy-4.4.44 ketcindy
 
 echo "Opening ketcindysettings.cdy..."
-start C:\ketcindydl\ketcindy4.4.44\doc\ketcindysettings.cdy
+start C:\ketcindy\doc\ketcindysettings.cdy
 
+
+shortcut "%USERPROFILE%\Desktop\KeTCindyFolder.lnk" "C:\ketcindy"
+
+rd /s /q "$env:TEMP/AUTOKETCINDYINSTALL"
