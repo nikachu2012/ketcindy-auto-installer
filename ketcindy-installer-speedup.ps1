@@ -3,7 +3,7 @@ cd $env:TEMP/AUTOKETCINDYINSTALL
 
 $path_Cinderella = "https://beta.cinderella.de/Cinderella-3.0b.2080-64bit.exe"
 $path_kettex = "https://github.com/ketpic/kettex/releases/download/v0.20230320/KeTTeX-windows-20230320.zip"
-$path_R = "https://cran.r-project.org/bin/windows/base/R-4.3.1-win.exe"
+$path_R = "https://cran.r-project.org/bin/windows/base/old/4.3.1/R-4.3.1-win.exe"
 $path_sumatra = "https://www.sumatrapdfreader.org/dl/rel/3.4.6/SumatraPDF-3.4.6-64-install.exe"
 $path_maxima = "https://jaist.dl.sourceforge.net/project/maxima/Maxima-Windows/5.47.0-Windows/maxima-5.47.0-win64.exe"
 $path_ketcindy = "https://github.com/ketpic/ketcindy/archive/refs/tags/4.4.44.zip"
